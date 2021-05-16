@@ -25,4 +25,4 @@ steps:
     
 - task: CmdLine@2
   inputs:
-    script: 'cypress run'
+    script: 'npx cypress run'
