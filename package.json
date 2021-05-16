@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/adikeshri/cypressInAzure/issues"
   },
-  "homepage": "https://github.com/adikeshri/cypressInAzure#readme"
+  "homepage": "https://github.com/adikeshri/cypressInAzure#readme",
+  "devDependencies": {
+    "cypress": "^7.3.0"
+  }
 }
