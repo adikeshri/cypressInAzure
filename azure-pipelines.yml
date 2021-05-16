@@ -21,8 +21,11 @@ steps:
   inputs:
     command: 'install'
 
-    
-    
+
+  
+- task: CmdLine@2
+  inputs:
+    script: 'npm install -g cypress'
 - task: CmdLine@2
   inputs:
     script: 'npx cypress run'
